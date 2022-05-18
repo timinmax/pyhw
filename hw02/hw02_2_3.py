@@ -7,6 +7,9 @@ def check_int(item_to_check):
 
 
 def format_int(item_2_format):
+    #Эта функция под вопросом. Альтернативный вариант - приведение к int вставить внутрь функции replace
+    #И вместо вызова функции format_int вставить эту "формулу"
+    #КАК ЛУЧШЕ С Т.ЗРЕНИЯ BEST PRACTICE?
     int_value = int(item_2_format)
     return item_2_format.replace(f"{int_value}", f"{int_value:02d}")
 
