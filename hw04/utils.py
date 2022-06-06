@@ -3,6 +3,7 @@ import xmltodict
 import xml
 from datetime import datetime
 
+
 def currency_rates(curr_code):
     data_to_return = {"Date": None, "Value": None}
     currency_url = "http://www.cbr.ru/scripts/XML_daily.asp"
@@ -24,8 +25,11 @@ def currency_rates(curr_code):
 
     return data_to_return
 
-usd_rate = currency_rates("USD")
-eur_rate = currency_rates("EUR")
 
-print(usd_rate)
-print(eur_rate)
+if __name__ == "__main__":
+    usd_rate = currency_rates("USD")
+    eur_rate = currency_rates("EUR")
+
+    print(usd_rate)
+    print(eur_rate)
+
