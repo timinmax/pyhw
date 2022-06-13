@@ -1,0 +1,4 @@
+calc_cube(x = 3: <class 'int'>) = 27
+calc_cube(x = 5: <class 'int'>) = 125
+calc_cube(x = 3: <class 'int'>) = 27
+calc_cube(x = 5: <class 'int'>) = 125
