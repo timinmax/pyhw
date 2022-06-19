@@ -1,0 +1,21 @@
+my_project:
+  authapp:
+    __init__.py: null
+    models.py: null
+    templates:
+      authapp:
+        base.html: null
+        index.html: null
+    views.py: null
+  mainapp:
+    __init__.py: null
+    models.py: null
+    templates:
+      mainapp:
+        base.html: null
+        index.html: null
+    views.py: null
+  settings:
+    __init__.py: null
+    dev.py: null
+    prod.py: null
